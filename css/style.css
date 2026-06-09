@@ -428,10 +428,6 @@ section { padding: 5rem 2.5rem; }
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 6rem;
   position: relative;
   overflow: hidden;
 }
@@ -845,4 +841,102 @@ footer {
   .blog-filters { border: none; flex-wrap: wrap; gap: 0.5rem; }
   .filter-btn { border: 1px solid var(--border); border-radius: 3px; }
   .posts-grid { gap: 1px; }
+}
+
+/* =====================
+   PROJECT CARDS
+===================== */
+.project-card {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  background: var(--card-bg);
+  padding: 2.5rem;
+  gap: 2rem;
+  transition: background var(--transition);
+}
+
+.project-card:hover { background: var(--bg-3); }
+
+.project-icon {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 0.25rem;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.project-tag {
+  font-size: 0.68rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent2);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.project-title {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 0.2rem;
+}
+
+.project-sub {
+  font-size: 0.82rem;
+  color: var(--gray);
+  font-weight: 300;
+}
+
+.project-status {
+  font-size: 0.75rem;
+  color: var(--gray);
+  white-space: nowrap;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  color: var(--gray);
+  font-weight: 300;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-badge {
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid rgba(139,124,246,0.25);
+  color: var(--accent);
+  border-radius: 3px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .project-icon { justify-content: flex-start; }
+  .project-header { flex-direction: column; }
 }
