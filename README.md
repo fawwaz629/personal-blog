@@ -7,7 +7,7 @@ A responsive personal blog and portfolio website built with pure HTML, CSS, and 
 ## 🌐 Demo
 
 > Deploy using GitHub Pages and paste your live link here  
-> `https://fawwazks.github.io/personal-blog/`
+> `https://fawwaz629.github.io/personal-blog/`
 
 ---
 
@@ -55,7 +55,7 @@ personal-blog/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/fawwazks/personal-blog.git
+   git clone https://github.com/fawwaz629/personal-blog.git
    ```
 
 2. **Open the project**
@@ -86,8 +86,8 @@ personal-blog/
 
 **Muhammad Fawwaz bin Kamarul Shukri**  
 Computer Science (Computer Network Security) — UniSZA FIK  
-- 📧 fawwaz@student.unisza.edu.my  
-- 🐙 [github.com/fawwazks](https://github.com/fawwazks)  
+- 📧 muhdfawwaz629@gmail.com  
+- 🐙 [github.com/fawwaz629](https://github.com/fawwaz629)  
 - 📍 Terengganu, Malaysia
 
 ---
