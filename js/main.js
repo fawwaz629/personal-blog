@@ -50,7 +50,7 @@ document.addEventListener('click', e => {
 const phrases = [
   'Cybersecurity Enthusiast',
   'Network Security Student',
-  'Problem Solver',
+  'Final Year Student',
   'UniSZA FIK Student',
 ];
 
