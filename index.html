@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Fawwaz | Personal Blog</title>
+  <meta name="description" content="Personal blog and portfolio of Muhammad Fawwaz — software development student at UniSZA sharing tech insights and projects." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar">
+  <a class="nav-logo" href="#">&lt;AF <span>/&gt;</span></a>
+  <ul class="nav-links" id="navMenu">
+    <li><a href="#" data-page="home"    class="active">Home</a></li>
+    <li><a href="#" data-page="about"            >About</a></li>
+    <li><a href="#" data-page="blog"             >Blog</a></li>
+    <li><a href="#" data-page="contact"          >Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ============================================================
+     PAGE: HOME
+============================================================ -->
+<div class="page" id="home">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Welcome to my blog</p>
+      <h1>Hi, I'm <span>Muhammad Fawwaz</span></h1>
+      <div class="typing-wrapper">
+        <span id="typing-text"></span><span class="cursor"></span>
+      </div>
+      <p class="hero-desc">
+        A Computer Science student at UniSZA who loves building things for the web,
+        exploring new technologies, and sharing what I learn along the way.
+      </p>
+      <div class="hero-cta">
+        <button class="btn btn-primary" data-goto="blog">Read My Blog</button>
+        <button class="btn btn-outline" data-goto="about">About Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Strip -->
+  <div class="skills-strip">
+    <div class="skills-inner">
+      <span class="skill-badge">HTML &amp; CSS</span>
+      <span class="skill-badge">JavaScript</span>
+      <span class="skill-badge">Python</span>
+      <span class="skill-badge">Git &amp; GitHub</span>
+      <span class="skill-badge">MySQL</span>
+      <span class="skill-badge">Bootstrap</span>
+      <span class="skill-badge">VS Code</span>
+      <span class="skill-badge">Linux</span>
+    </div>
+  </div>
+
+  <!-- Recent Posts -->
+  <section class="recent-posts">
+    <div class="section-header">
+      <p class="section-tag">Latest Articles</p>
+      <h2>Recent Posts</h2>
+      <div class="divider"></div>
+      <p>Thoughts on software development, learning journeys, and tech tips.</p>
+    </div>
+
+    <div class="posts-grid">
+      <!-- Card 1 -->
+      <article class="blog-card">
+        <span class="card-tag">Web Dev</span>
+        <h3>Getting Started with Responsive Web Design</h3>
+        <p>Learn how to build websites that look great on any screen size using CSS Flexbox and Grid — a beginner-friendly guide.</p>
+        <div class="card-meta">
+          <span>Jun 1, 2025</span>
+          <a class="read-more" data-goto="blog">Read →</a>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="blog-card">
+        <span class="card-tag amber">Python</span>
+        <h3>Why Every Student Should Learn Python First</h3>
+        <p>Python's clean syntax and versatility make it the perfect first language. Here's why I think every CS student should start here.</p>
+        <div class="card-meta">
+          <span>May 20, 2025</span>
+          <a class="read-more" data-goto="blog">Read →</a>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="blog-card">
+        <span class="card-tag green">Git</span>
+        <h3>Git Workflow Tips That Saved My Group Project</h3>
+        <p>From merge conflicts to clean commit history — practical Git habits every student developer needs to know for collaborative projects.</p>
+        <div class="card-meta">
+          <span>May 10, 2025</span>
+          <a class="read-more" data-goto="blog">Read →</a>
+        </div>
+      </article>
+    </div>
+
+    <div style="text-align:center; margin-top:2.5rem;">
+      <button class="btn btn-outline" data-goto="blog">View All Posts</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-brand">&lt;AF <span>/&gt;</span></span>
+      <nav class="footer-links">
+        <a href="#" data-page="home">Home</a>
+        <a href="#" data-page="about">About</a>
+        <a href="#" data-page="blog">Blog</a>
+        <a href="#" data-page="contact">Contact</a>
+      </nav>
+    </div>
+    <p class="footer-copy">© 2025 Muhammad Fawwaz · Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+</div><!-- /page home -->
+
+
+<!-- ============================================================
+     PAGE: ABOUT
+============================================================ -->
+<div class="page" id="about">
+
+  <section style="padding: 8rem 2rem 4rem;">
+    <div class="about-grid">
+      <!-- Avatar -->
+      <div class="about-avatar-wrap">
+        <div class="avatar-box">👨‍💻</div>
+        <div class="about-deco"></div>
+      </div>
+      <!-- Text -->
+      <div class="about-text">
+        <p class="eyebrow">About Me</p>
+        <h2>Muhammad Fawwaz bin<br>Kamarul Shukri</h2>
+        <p>
+          I'm a 3rd-year Computer Science student at Universiti Sultan Zainal Abidin (UniSZA),
+          Terengganu. My passion lies in web development and creating meaningful digital experiences
+          that solve real-world problems.
+        </p>
+        <p>
+          Beyond classes, I enjoy contributing to open-source projects, building side projects,
+          and writing blog posts to document my learning journey and help others who are just
+          getting started in tech.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Projects</div></div>
+          <div class="stat"><div class="stat-num">2</div><div class="stat-label">Years Coding</div></div>
+          <div class="stat"><div class="stat-num">5+</div><div class="stat-label">Blog Posts</div></div>
+        </div>
+
+        <button class="btn btn-primary" data-goto="contact">Get In Touch</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills-section">
+    <div class="section-header">
+      <p class="section-tag">What I Know</p>
+      <h2>Technical Skills</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="skills-categories">
+      <div class="skill-category">
+        <h3>🌐 Frontend</h3>
+        <div class="skill-item">
+          <div class="skill-item-header"><span>HTML &amp; CSS</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item-header"><span>JavaScript</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item-header"><span>Bootstrap</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>⚙️ Backend &amp; Tools</h3>
+        <div class="skill-item">
+          <div class="skill-item-header"><span>Python</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item-header"><span>MySQL</span><span>60%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item-header"><span>PHP</span><span>55%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="55%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>🛠️ Dev Tools</h3>
+        <div class="skill-item">
+          <div class="skill-item-header"><span>Git &amp; GitHub</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item-header"><span>VS Code</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-item-header"><span>Linux CLI</span><span>60%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-brand">&lt;AF <span>/&gt;</span></span>
+      <nav class="footer-links">
+        <a href="#" data-page="home">Home</a>
+        <a href="#" data-page="blog">Blog</a>
+        <a href="#" data-page="contact">Contact</a>
+      </nav>
+    </div>
+    <p class="footer-copy">© 2025 Muhammad Fawwaz · Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+</div><!-- /page about -->
+
+
+<!-- ============================================================
+     PAGE: BLOG
+============================================================ -->
+<div class="page" id="blog">
+
+  <div class="blog-hero">
+    <p class="section-tag">The Blog</p>
+    <h1>Articles &amp; <span>Insights</span></h1>
+    <p style="color:var(--gray); max-width:500px; margin:0.75rem auto 0;">
+      Sharing what I learn about web development, programming, and student life in tech.
+    </p>
+
+    <!-- Filters -->
+    <div class="blog-filters">
+      <button class="filter-btn active" data-filter="all">All Posts</button>
+      <button class="filter-btn" data-filter="webdev">Web Dev</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="git">Git &amp; Tools</button>
+      <button class="filter-btn" data-filter="tips">Tips</button>
+    </div>
+  </div>
+
+  <div class="blog-grid-section">
+
+    <!-- Featured Post -->
+    <article class="featured-post">
+      <div class="featured-img">🚀</div>
+      <div class="featured-content">
+        <p class="featured-label">⭐ Featured Post</p>
+        <h2>Getting Started with Responsive Web Design</h2>
+        <p>
+          A complete beginner's guide to building websites that look great on every screen.
+          We'll cover CSS Flexbox, Grid, media queries, and mobile-first thinking with
+          practical examples you can start using today.
+        </p>
+        <div class="card-meta" style="border:none; padding:0;">
+          <span style="color:var(--gray); font-size:0.85rem;">Jun 1, 2025 · 8 min read</span>
+          <a class="read-more" href="#" style="color:var(--teal); font-weight:600;">Read Full Post →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Blog Grid -->
+    <div class="blog-grid-full">
+
+      <article class="blog-card" data-category="python">
+        <span class="card-tag amber">Python</span>
+        <h3>Why Every Student Should Learn Python First</h3>
+        <p>
+          Python's readable syntax and huge ecosystem make it the perfect starting point.
+          I share my personal experience switching from Java to Python and how it changed
+          the way I think about programming.
+        </p>
+        <div class="card-meta">
+          <span>May 20, 2025 · 5 min</span>
+          <a class="read-more" href="#">Read →</a>
+        </div>
+      </article>
+
+      <article class="blog-card" data-category="git">
+        <span class="card-tag green">Git</span>
+        <h3>Git Workflow Tips That Saved My Group Project</h3>
+        <p>
+          Merge conflicts, missing commits, broken main branch — sound familiar?
+          Here are the Git habits I wish I knew before my first group assignment.
+        </p>
+        <div class="card-meta">
+          <span>May 10, 2025 · 6 min</span>
+          <a class="read-more" href="#">Read →</a>
+        </div>
+      </article>
+
+      <article class="blog-card" data-category="webdev">
+        <span class="card-tag">Web Dev</span>
+        <h3>CSS Variables: The One Feature That Changed How I Write Styles</h3>
+        <p>
+          Custom properties in CSS are simple to use but incredibly powerful.
+          Learn how I use them to build consistent, themeable stylesheets
+          without touching every single line of code.
+        </p>
+        <div class="card-meta">
+          <span>Apr 28, 2025 · 4 min</span>
+          <a class="read-more" href="#">Read →</a>
+        </div>
+      </article>
+
+      <article class="blog-card" data-category="tips">
+        <span class="card-tag" style="background:rgba(167,139,250,0.12);color:#A78BFA;">Tips</span>
+        <h3>5 VS Code Extensions Every CS Student Needs</h3>
+        <p>
+          Boost your productivity and write better code with these five VS Code extensions
+          I use daily — from Prettier to GitLens, these are genuine game-changers.
+        </p>
+        <div class="card-meta">
+          <span>Apr 15, 2025 · 3 min</span>
+          <a class="read-more" href="#">Read →</a>
+        </div>
+      </article>
+
+      <article class="blog-card" data-category="python">
+        <span class="card-tag amber">Python</span>
+        <h3>Building a Simple To-Do CLI App in Python</h3>
+        <p>
+          A practical project walkthrough where we build a command-line to-do app using
+          Python and JSON files — perfect for practising file I/O and basic data structures.
+        </p>
+        <div class="card-meta">
+          <span>Apr 5, 2025 · 7 min</span>
+          <a class="read-more" href="#">Read →</a>
+        </div>
+      </article>
+
+      <article class="blog-card" data-category="tips">
+        <span class="card-tag" style="background:rgba(167,139,250,0.12);color:#A78BFA;">Tips</span>
+        <h3>How I Stay Productive as a Full-Time CS Student</h3>
+        <p>
+          Balancing assignments, projects, part-time work, and personal growth is tough.
+          Here's my honest system — what works, what doesn't, and what I'd do differently.
+        </p>
+        <div class="card-meta">
+          <span>Mar 22, 2025 · 4 min</span>
+          <a class="read-more" href="#">Read →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-brand">&lt;AF <span>/&gt;</span></span>
+      <nav class="footer-links">
+        <a href="#" data-page="home">Home</a>
+        <a href="#" data-page="about">About</a>
+        <a href="#" data-page="contact">Contact</a>
+      </nav>
+    </div>
+    <p class="footer-copy">© 2025 Muhammad Fawwaz · Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+</div><!-- /page blog -->
+
+
+<!-- ============================================================
+     PAGE: CONTACT
+============================================================ -->
+<div class="page" id="contact">
+  <div class="contact-page">
+    <div style="text-align:center; margin-bottom:3rem;">
+      <p class="section-tag">Get In Touch</p>
+      <h1>Let's <span style="color:var(--teal)">Connect</span></h1>
+      <div class="divider" style="margin:0.75rem auto 0;"></div>
+    </div>
+
+    <div class="contact-layout">
+      <!-- Info -->
+      <div class="contact-info">
+        <h2>Say Hello 👋</h2>
+        <p>
+          Whether you want to collaborate on a project, ask a question about
+          something I've written, or just want to connect — my inbox is always open.
+        </p>
+
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div class="contact-item-text">
+            <small>Email</small>
+            <span>fawwaz@student.unisza.edu.my</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-item-text">
+            <small>Location</small>
+            <span>Terengganu, Malaysia</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🐙</div>
+          <div class="contact-item-text">
+            <small>GitHub</small>
+            <span>github.com/fawwazks</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">💼</div>
+          <div class="contact-item-text">
+            <small>LinkedIn</small>
+            <span>linkedin.com/in/muhammad-fawwaz</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="contact-form-wrap">
+        <h3 style="margin-bottom:1.5rem;">Send a Message</h3>
+
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="Ali" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Hassan" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="ali@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Project collaboration..." required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Hey Ahmad, I'd love to..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+            Send Message ✉️
+          </button>
+        </form>
+
+        <!-- Success State -->
+        <div class="form-success" id="formSuccess" style="opacity:0; transition:opacity 0.4s;">
+          <div class="check">✅</div>
+          <h3>Message Sent!</h3>
+          <p style="color:var(--gray); margin-top:0.5rem;">
+            Thanks for reaching out. I'll get back to you within 24 hours.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-brand">&lt;AF <span>/&gt;</span></span>
+      <nav class="footer-links">
+        <a href="#" data-page="home">Home</a>
+        <a href="#" data-page="about">About</a>
+        <a href="#" data-page="blog">Blog</a>
+      </nav>
+    </div>
+    <p class="footer-copy">© 2025 Muhammad Fawwaz · Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+</div><!-- /page contact -->
+
+<script src="js/main.js"></script>
+</body>
+</html>
